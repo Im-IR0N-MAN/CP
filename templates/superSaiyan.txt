@@ -53,11 +53,8 @@
 			"#define each(a, x) for (auto &a : x)",
 			"",
 			"const int Mod = 1e9 + 7; // 998244353",
-			"",
-			"void solve(int tc)",
-			"{",
-			"    $0",
-			"}",
+			"",	
+			"void solve(int tc);",
 			"",
 			"int main()",
 			"{",
@@ -69,7 +66,14 @@
 			"    {",
 			"        solve(i);",
 			"    }",
-			"}"
+			"}",
+			"",
+			"",
+			"void solve(int tc)",
+			"{",
+			"    $0",
+			"}",
+			""
 		],
 		"description": "a lil more advanced snippit for cp"
 	}
